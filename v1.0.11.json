@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-01-15T10:30:00Z",
+  "type": "major",
+  "version": "3.7.2",
+  "title": "Performance Improvements & Feature Expansion",
+  "icon": "feature",
+  "pinned": true,
+  "description": "A major update improving reliability, performance, and user experience across all modules. Includes new UI animations, faster data syncing, and smarter friend management.",
+  "updateMessage": "🔥 Major update released! Faster performance, smoother design, and smarter friend management. Check out the new experimental settings menu and improved GitHub auto-updater!",
+  "newFeatures": [
+    "Automatic update checking and installation from GitHub",
+    "Smart friend list caching with background refresh",
+    "Keyboard shortcuts for quick navigation and friend removal",
+    "Added in-app changelog viewer",
+    "New Beta Settings menu with experimental features",
+    "Custom theme colors and accent customization",
+    "Export/import settings across devices"
+  ],
+  "uiImprovements": [
+    "Enhanced update log interface with collapsible sections",
+    "Smooth theme transitions (light ↔ dark)",
+    "Faster startup animation and reduced flickering",
+    "Reworked sidebar layout for better readability",
+    "Improved tooltip designs and hover effects",
+    "Compact mode for smaller screens",
+    "Cleaner typography and icon updates"
+  ],
+  "bugFixes": [
+    "Fixed issue with friend removal on slow or unstable connections",
+    "Resolved avatar loading inconsistencies on some profiles",
+    "Fixed incorrect friend count display on initial load",
+    "Resolved theme persistence after browser restart",
+    "Corrected alignment issues in the settings panel",
+    "Fixed rare crash when switching themes during removal",
+    "Resolved notifications not appearing on pinned extensions"
+  ],
+  "performanceImprovements": [
+    "Reduced extension startup time by 25%",
+    "Optimized data sync interval to lower memory usage",
+    "Improved caching layer to prevent redundant API calls",
+    "Reduced UI render blocking during friend scanning",
+    "Asynchronous log saving for faster response"
+  ],
+  "otherChanges": [
+    "Updated dependencies and rebuilt manifest v3 compatibility",
+    "Removed deprecated functions in background.js",
+    "Added developer tools logging option",
+    "Improved documentation and FAQ links",
+    "Refactored internal APIs for better maintainability"
+  ],
+  "developerNotes": [
+    "Preparing for v3.8 Beta — more automation and analytics coming soon.",
+    "Testing friend synchronization with external accounts.",
+    "Next release will include cloud sync and visual analytics dashboard."
+  ]
+}
