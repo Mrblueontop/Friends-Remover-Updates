@@ -1,0 +1,175 @@
+
+
+
+{
+
+
+  "timestamp": "2025-10-05T10:30:00Z",
+
+
+  "type": "major",
+
+
+  "version": "1.2.0",
+
+
+  "title": "Redesigned Friend System & Performance Boost",
+
+
+  "icon": "feature",
+
+
+  "pinned": true,
+
+
+  "updateMessage": "🎉 Redesigned friend details page, faster deletion process, live updates, and dark mode are back in beta! Check out the new review system and live popup updates!",
+
+
+  "newFeatures": [
+
+
+    "Redesigned friend details — more info just like Roblox profile pages",
+
+
+    "Block Mode — automatically block users after unfriending",
+
+
+    "Dark Mode — the original dark mode returns (now in beta!)",
+
+
+    "Live Updates — see avatars and statuses update in real-time in the popup",
+
+
+    "Added profile button to old friends in the friends history",
+
+
+    "New Review System — users can now rate and leave feedback",
+
+
+    "Users must join the official group to access the extension",
+
+
+    "Added Discord webhook notifications for update events"
+
+
+  ],
+
+
+  "uiImprovements": [
+
+
+    "Redesigned popup with new animations and transitions",
+
+
+    "Better designed friend loading screen in popup",
+
+
+    "More accurate progress bar when removing friends",
+
+
+    "Improved overall friend deletion interface",
+
+
+    "Faster and smoother UI rendering"
+
+
+  ],
+
+
+  "bugFixes": [
+
+
+    "Fixed update logs not displaying newest update first",
+
+
+    "Fixed broken themes when switching color modes",
+
+
+    "Fixed saving and authentication issues",
+
+
+    "Fixed GitHub data pull errors in update log",
+
+
+    "Resolved issues with update notifications appearing repeatedly",
+
+
+    "Corrected export data format to original JSON file"
+
+
+  ],
+
+
+  "otherChanges": [
+
+
+    "Welcome message replaced with Terms message",
+
+
+    "Removed Update Page temporarily (will return soon)",
+
+
+    "Improved GitHub integration for live update checks",
+
+
+    "No longer need to manually accept Terms of Service (reading recommended)",
+
+
+    "Improved background update handler for faster processing"
+
+
+  ],
+
+
+  "performanceImprovements": [
+
+
+    "Faster deletion process overall",
+
+
+    "Better accuracy in progress tracking during removal",
+
+
+    "Reduced redundant API calls when checking for new updates",
+
+
+    "Improved background caching for smoother load times"
+
+
+  ],
+
+
+  "codeBasedChanges": [
+
+
+    "Refactored update-checking logic to only trigger notifications when a *new* update is detected",
+
+
+    "Rebuilt version comparison system to ensure the latest update appears first",
+
+
+    "Optimized GitHub fetch system for smaller, faster JSON loads",
+
+
+    "Rewrote notification handler to prevent duplicate notifications after install",
+
+
+    "Improved asynchronous file validation and background task flow"
+
+
+  ],
+
+
+  "developerNotes": [
+
+
+    "This release fixes over-notification and sorting issues with Fixit’s update checker.",
+
+
+    "Next update will focus on restoring the update page with a new design and integrated review analytics."
+
+
+  ]
+
+
+}
