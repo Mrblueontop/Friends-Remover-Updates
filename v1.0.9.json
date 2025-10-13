@@ -1,27 +1,35 @@
 {
-  "timestamp": "2025-01-15T10:30:00Z",
-  "type": "minor",
-  "title": "Performance Improvements & Bug Fixesccc",
+  "timestamp": "2025-10-13T02:00:00Z",
+  "type": "major",
+  "title": " New Features, UI Improvements & Bug Fixes",
   "icon": "feature",
   "pinned": false,
   "newFeatures": [
-    "Added automatic update checking from GitHub",
-    "Improved friend list caching",
-    "New keyboard shortcuts for navigation"
+    "Added extension loading popup to show progress during loading",
+    "Implemented a ban system with an appeal system",
+    "Added a 'Receive Notifications' setting",
+    "Added new settings tab with: Auto-Remove Inactive Friends BETA, Enable Live UI Updates, Filter by Account Age, Allow Game Join via Status",
+    "You can now join a user's game by pressing their in-game status (setting must be enabled)",
+    "Enabled Auto-Remove Inactive Friends (BETA)",
+    "Enabled Filter by Account Age",
+    "Improved auth system – extension works after reopening browser without needing to open Roblox for 24 hours",
+    "Added report system next to every error message in popup"
   ],
   "uiImprovements": [
-    "Enhanced update log design",
-    "Better theme transitions",
-    "Improved loading animations"
+    "Updated welcome page with better animations and design",
+    "Updated update log with new expand style on welcome page",
+    "Removed welcome page on first install; goes directly to settings",
+    "Updated popup dark mode – cleaner design",
+    "Updated both Terms and Privacy pages",
+    "Friends details user list now scales correctly"
   ],
   "bugFixes": [
-    "Fixed issue with friend removal on slow connections",
-    "Corrected avatar loading problems",
-    "Resolved theme persistence issues"
+    "Fixed issue allowing data export with no data",
+    "Fixed friends list scaling issues",
+    "Updated review system behavior"
   ],
   "otherChanges": [
-    "Updated dependencies",
-    "Code optimization",
-    "Documentation improvements"
+    "Removed three popup settings: Auto-update avatars in history, Save avatars locally, Auto refresh friends list",
+    "Removed unnecessary dependencies and optimized code"
   ]
 }
