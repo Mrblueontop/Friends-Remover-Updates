@@ -1,36 +1,48 @@
 {
   "timestamp": "2025-10-13T02:00:00Z",
   "type": "major",
-  "title": "v2.0 – New Systems, UI Upgrades & Fixes",
+  "version": "2.0.0",
+  "title": "Massive Feature Drop + UI Upgrade",
   "icon": "feature",
   "pinned": false,
+  "updateMessage": "🔥 New ban + appeal system, group shout notifications, Join via Status, and massive UI upgrades! Beta automation tools are now live!",
   "newFeatures": [
-    "Added extension loading popup",
     "Added ban system with appeal system",
     "Added group shout notifications",
-    "New settings tab with beta features",
-    "Join games by clicking user status",
-    "Auto-Remove Inactive Friends (BETA)",
-    "Filter by Account Age",
-    "Improved auth system (stay logged in)",
-    "Added error report button",
-    "Load More button in Friends Details tabs"
+    "Join games directly from a user's in-game status",
+    "New Beta Features tab: Auto-Remove Inactive Friends, Live UI Updates, Account Age Filter",
+    "Extension loading popup added",
+    "Error report button added next to every error",
+    "Functional 'Load More' button for all Friends Details sections"
   ],
   "uiImprovements": [
-    "Better welcome page animations",
-    "Cleaner update log layout",
-    "Improved dark mode",
+    "Updated welcome page animations and layout",
+    "Improved Beta Features popup UI",
+    "Cleaner dark mode for popup",
     "Updated Terms & Privacy pages",
-    "Moved favorited tabs to About Me",
-    "Improved beta features popup UI"
+    "Moved Favorited tabs to user About Me section"
   ],
   "bugFixes": [
-    "Fixed export without data",
-    "Fixed friends details scaling issues",
-    "Improved review system"
+    "Fixed exporting with no data",
+    "Fixed friends details scaling",
+    "Fixed review system issues"
   ],
   "otherChanges": [
-    "Performance improvements"
+    "Removed 3 old settings from popup",
+    "Improved styling and animations"
+  ],
+  "performanceImprovements": [
+    "Improved loading speed for friends data",
+    "Reduced UI lag while scrolling",
+    "Optimized caching for faster reopen time"
+  ],
+  "codeBasedChanges": [
+    "Improved authentication handling to stay logged in after browser restart",
+    "Refactored settings system to support new beta features",
+    "Streamlined friends data fetch to reduce API load"
+  ],
+  "developerNotes": [
+    "More automation features coming soon",
+    "Ban system logs are being improved for transparency"
   ]
 }
-
