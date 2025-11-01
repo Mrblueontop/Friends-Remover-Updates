@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-01T14:20:00.000",
+  "version": "v1.0.11",
+  "type": "major",
+  "title": "Happy Halloween",
+  "icon": "feature",
+  "pinned": true,
+  "description": "Happy Halloween Enjoy the Update.",
+  "updateMessage": "Major update with new features, themes, and fixes!",
+  "newFeatures": [
+    "Added Halloween theme (available for 30 days, default theme)",
+    "Added Forms & Feedback page in the pop-up for suggestions, bug reports, and feedback",
+    "Added new friend status indicator for deleted friends",
+    "Implemented timeout system for inactive pages",
+    "One-page system: only one active page open per type (Settings, Privacy Policy, Terms of Service)",
+    "Added warning on Welcome page if your extension version is outdated"
+  ],
+  "uiImprovements": [
+    "Updated extension icon for better appearance",
+    "Improved loading speed for friends list",
+    "Redesigned auto-remove inactive friends system"
+  ],
+  "bugFixes": [
+    "Fixed bug that added extra text in pop-up",
+    "Fixed display name showing as 'user_ID' instead of display name",
+    "Fixed pop-up reload every 10 seconds",
+    "Fixed extension showing blocked users and mutual/trusted/new badges incorrectly",
+    "Translation now applies to notifications"
+  ],
+  "performanceImprovements": [
+    "Optimized friend list loading speed",
+    "Improved auto-remove inactive friends system"
+  ],
+  "securityUpdates": [
+    "Removed all webhook systems and related features"
+  ],
+  "removedFeatures": [
+    "Removed live UI update setting",
+    "Removed allow game joined via status setting",
+    "Removed block users after unfriended setting",
+    "Removed mutual, new, and trusted badges",
+    "Removed bug report system from pop-up"
+  ],
+  "knownBugs": [
+    "Account age not working (will be fixed next update)",
+    "Language not applying to all elements (work in progress)",
+    "On-prem history gate not working",
+    "Status may show as black (work in progress)",
+    "Friend status may not update after refreshing pop-up",
+    "Extension currently allows use on two Roblox pages with different accounts; working on a fix"
+  ],
+  "otherChanges": [
+    "Minor text corrections and UI improvements"
+  ],
+  "developerNotes": [
+    "Working on enhancements for language application",
+    "Improving friend status refresh system",
+    "Continuing development for multi-account support"
+  ]
+}
