@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-11-01T14:20:00.000",
+  "version": "v1.0.12",
+  "type": "major",
+  "title": "Massive Stability & UI Update",
+  "icon": "feature",
+  "pinned": true,
+  "description": "Refinements, redesigns, and performance boosts.",
+  "updateMessage": "Revamped removing system, improved pop-up UI, new dev tools, and major fixes.",
+  "newFeatures": [
+    "Added back the original removing modal in the pop-up",
+    "Added back friend removal notifications (respects notification settings)",
+    "Added new debug mode for developers",
+    "Added developer command panel inside settings"
+  ],
+  "uiImprovements": [
+    "Removed Halloween theme",
+    "Removed beta dark mode",
+    "Restyled statuses in pop-up",
+    "Double-click friend details restored",
+    "More loading states added, improved loading speed by 10.5x",
+    "New animations added to the pop-up",
+    "Redesigned warning modal",
+    "Redesigned removing modal",
+    "Themes now apply correctly to the pop-up"
+  ],
+  "bugFixes": [
+    "Fixed manual refreshing showing statuses as offline incorrectly",
+    "Fixed unfriend history being broken",
+    "Fixed unpinning disabling the user's checkmark",
+    "Fixed account age fully working now",
+    "Fixed parts of the extension not respecting 'receive nothing' icons",
+    "Fixed update log not updating correctly on the welcome page"
+  ],
+  "performanceImprovements": [
+    "Improved pop-up loading speed by 10.5x",
+    "Improved state management across pages"
+  ],
+  "securityUpdates": [],
+  "removedFeatures": [
+    "Removed 2 settings from Settings page"
+  ],
+  "knownBugs": [
+    "Privacy policy page is broken",
+    "User data system not working correctly",
+    "Themes not fully applying to pop-up (partial fix)",
+    "Display names not replacing usernames everywhere",
+    "Settings UI glitched and showing wrong page name",
+    "Detect removal setting not adding removed users to unfriend history"
+  ],
+  "otherChanges": [
+    "Updated category from 'history settings' to 'activity tracking'",
+    "General clean-up and UI improvements"
+  ],
+  "developerNotes": [
+    "Working on fixing theme application fully",
+    "Investigating user data syncing issues",
+    "Improving unfriend detection logic",
+    "Additional developer tools coming soon"
+  ]
+}
