@@ -12,62 +12,62 @@
   "description": "A major stability, cleanup, and performance update is coming soon!",
 
   "newFeatures": [
-    "✨ Improved text for 'No Results' filters",
-    "✨ New 'No Friends' error message"
+    "Improved text for 'No Results' filters",
+    "New 'No Friends' error message"
   ],
 
   "uiImprovements": [
-    "🎨 Redesigned removal progress UI",
-    "🎨 Popup will load correctly even when Roblox is closed",
-    "🎨 Theme names updated to proper color names"
+    "Redesigned removal progress UI",
+    "Popup will load correctly even when Roblox is closed",
+    "Theme names updated to proper color names"
   ],
 
   "bugFixes": [
-    "🐛 Fixed 'Show Display Names Instead of Usernames'",
-    "🐛 Fixed themes not applying to popup",
-    "🐛 Fixed languages not applying fully",
-    "🐛 Fixed languages not applying to notifications",
-    "🐛 Fixed broken English translation keys",
-    "🐛 Fixed pin issue",
-    "🐛 Fixed glitchy removal progress",
-    "🐛 Fixed 'Failed to Load Friends' error",
-    "🐛 Fixed blank popup until Roblox opens",
-    "🐛 Fixed performance-related issues"
+    "Fixed 'Show Display Names Instead of Usernames'",
+    "Fixed themes not applying to popup",
+    "Fixed languages not applying fully",
+    "Fixed languages not applying to notifications",
+    "Fixed broken English translation keys",
+    "Fixed pin issue",
+    "Fixed glitchy removal progress",
+    "Fixed 'Failed to Load Friends' error",
+    "Fixed blank popup until Roblox opens",
+    "Fixed performance-related issues"
   ],
 
   "performanceImprovements": [
-    "⚡ Much faster loading times",
-    "⚡ Better storage handling",
-    "⚡ Smaller extension size"
+    "Much faster loading times",
+    "Better storage handling",
+    "Smaller extension size"
   ],
 
   "localization": [
-    "🌍 Languages fully applying across UI and notifications",
-    "🌍 Removed outdated/broken languages",
-    "🌍 Large translation update planned"
+    "Languages fully applying across UI and notifications",
+    "Removed outdated/broken languages",
+    "Large translation update planned"
   ],
 
   "dataManagement": [
-    "💾 Per-account separate data storage",
-    "💾 Google Chrome sync-storage integration",
-    "💾 Data persistence across reinstall"
+    "Per-account separate data storage",
+    "Google Chrome sync-storage integration",
+    "Data persistence across reinstall"
   ],
 
   "removedFeatures": [
-    "🗑️ Removed Friends Details",
-    "🗑️ Removed Privacy & Policy",
-    "🗑️ Removed Terms of Service",
-    "🗑️ Removed Forms & Feedback",
-    "🗑️ Removed multi-tab settings system",
-    "🗑️ Removed tooltips from settings",
-    "🗑️ Removed Orange, Cyan, Teal, and Gold themes",
-    "🗑️ Removed useless notifications",
-    "🗑️ Removed report button from errors"
+    "Removed Friends Details",
+    "Removed Privacy & Policy",
+    "Removed Terms of Service",
+    "Removed Forms & Feedback",
+    "Removed multi-tab settings system",
+    "Removed tooltips from settings",
+    "Removed Orange, Cyan, Teal, and Gold themes",
+    "Removed useless notifications",
+    "Removed report button from errors"
   ],
 
   "otherChanges": [
-    "🔧 Improved translation system stability",
-    "🔧 Removal of unused systems and old code",
-    "🔧 General reliability improvements"
+    "Improved translation system stability",
+    "Removal of unused systems and old code",
+    "General reliability improvements"
   ]
 }
