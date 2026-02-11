@@ -1,27 +1,104 @@
 {
-  "timestamp": "2025-01-15T10:30:00Z",
-  "type": "minor",
-  "title": "Performance Improvements & Bug Fixesccc",
-  "icon": "feature",
-  "pinned": false,
-  "newFeatures": [
-    "Added automatic update checking from GitHub",
-    "Improved friend list caching",
-    "New keyboard shortcuts for navigation"
-  ],
-  "uiImprovements": [
-    "Enhanced update log design",
-    "Better theme transitions",
-    "Improved loading animations"
-  ],
-  "bugFixes": [
-    "Fixed issue with friend removal on slow connections",
-    "Corrected avatar loading problems",
-    "Resolved theme persistence issues"
-  ],
-  "otherChanges": [
-    "Updated dependencies",
-    "Code optimization",
-    "Documentation improvements"
-  ]
+    id: "3.3.0",
+    version: "3.3.0",
+    title: "Valentine’s Update",
+    description: "Settings improvements, VIP additions, performance fixes, and major cleanup. Happy Valentine’s Day!",
+
+    timestamp: "2026-02-10T05:30:00.000Z",
+
+    // 🔖 Badges
+    nowOut: true,
+    comingSoon: false,
+    updated: true,
+    beta: false,
+    experimental: false,
+    hot: true,
+    new: false,
+    security: false,
+    critical: false,
+    recommended: true,
+    maintenance: false,
+
+    // 📌 Pin to top
+    pinned: true,
+
+    // ✨ Sections
+
+    newFeatures: [
+        "Added VIP system",
+        "Added beta settings feature",
+        "Added removal speed selector",
+        "Added unfriend history graph",
+        "Added custom theme support",
+        "Added server-side user storage (your history and data are now saved securely)",
+        "Added export and import data feature",
+        "Added notification system in settings",
+        "Added new account age option (filters users outside your age group)",
+        "Added new setting to flag users outside your selected age group"
+    ],
+
+    uiImprovements: [
+        "Redesigned the settings page a little bit",
+        "Updated the top menu buttons in the pop-up",
+        "Redefined overall UI structure",
+        "Improved dark mode",
+        "Enhanced translation support for settings",
+        "Improved removal screen layout",
+        "Improved mobile screen layout"
+    ],
+
+    bugFixes: [
+        "Fixed removal system not working",
+        "Fixed the unfriend history being called on print history",
+        "Fixed scheduled removals",
+        "Fixed scheduled removals being glitchy",
+        "Fixed issue allowing random people who are not your friends to be added",
+        "Fixed auto-ban system (prepared for rework)",
+        "Fixed clear history button not working",
+        "Fixed multiple lag-related issues"
+    ],
+
+    performanceImprovements: [
+        "Reduced extension lag significantly",
+        "Optimized background processes",
+        "Removed unnecessary and unused files",
+        "Improved memory handling"
+    ],
+
+    changes: [
+        "Changed 'Show display name instead of username' from a checkbox to a slider",
+        "Reworked sync with pinned friends"
+    ],
+
+    deprecations: [
+        "Removed switch account system",
+        "Removed old pin system"
+    ],
+
+    removedFeatures: [
+        "Removed authentication lock setting",
+        "Removed enable UI animations setting",
+        "Removed outdated internal files"
+    ],
+
+    knownBugs: [
+        "We know the pop-up removal screen may be slightly glitchy. We are actively working on fixing it.",
+        "Extension may still experience minor lag (ongoing optimization)"
+    ],
+
+    breakingChanges: [
+        "Old pin system fully replaced",
+        "Switch account system removed"
+    ],
+
+    developerNotes: [
+        "Major internal cleanup completed.",
+        "Large performance improvements implemented.",
+        "We are continuing to optimize the extension to reduce lag even further.",
+        "Happy Valentine’s Day ❤️"
+    ],
+
+    otherChanges: [
+        "General bug fixes and system stability improvements"
+    ]
 }
